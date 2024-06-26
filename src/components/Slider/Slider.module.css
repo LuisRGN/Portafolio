@@ -1,0 +1,63 @@
+.div {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 1rem 0;
+}
+
+.inner {
+    width: fit-content;
+    display: flex;
+    animation: loop 30s linear infinite;
+}
+
+.tag {
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.2rem #00000033, 0 0.1rem 0.5rem #0000004d, 0 0.2rem 1.5rem #00000066;
+    background-color: #fff;
+}
+
+.tag img {
+    width: 9rem;
+    aspect-ratio: 3/3;
+    max-width: none;
+}
+
+.fade {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .tag img {
+        width: 6rem;
+    }
+}
