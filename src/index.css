@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-nav, footer, .custom-bg {
-    background: radial-gradient(circle, rgba(26,38,194,1) 0%, rgba(36,34,35,1) 100%);
+nav,
+footer,
+.custom-bg {
+    background: radial-gradient(circle, rgba(26, 38, 194, 1) 0%, rgba(36, 34, 35, 1) 100%);
 }
+
+.custom2-bg {
+    background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(52, 52, 52) 100%);
+}
+
 html {
     scroll-behavior: smooth;
 }
