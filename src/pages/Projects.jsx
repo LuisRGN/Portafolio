@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 
-const Projects = () => {
+const Projects = ({ bgColorClass, btnColorClass, colorText }) => {
   const projectList = [
     {
       title: 'Administrador de actividades', description: `Explora una página web personalizada con una 
@@ -39,12 +40,12 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="min-h-screen pt-10 bg-[#fff]">
+    <section id="projects" className={`min-h-screen pt-10 ${bgColorClass}`}>
       <div className="container p-8 mx-auto">
-        <h2 className="text-4xl font-bold text-center text-black">Mis proyectos</h2>
+        <h2 className={`text-4xl font-bold text-center ${colorText}`}>Mis proyectos</h2>
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
           {projectList.map((project, index) => (
-            <ProjectCard key={index} {...project} />
+            <ProjectCard key={index} {...project} btnColorClass={btnColorClass} colorText={colorText} />
           ))}
         </div>
       </div>
