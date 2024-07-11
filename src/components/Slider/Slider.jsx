@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import styles from "./Slider.module.css"
 
-const Slice = () => {
+const Slice = ({ colorText }) => {
     return (
         <div className={styles.div}>
             <div className={styles.container}>
-                <h1>TECNOLOGÍAS</h1>
+                <h1 className={`${colorText}`}>TECNOLOGÍAS</h1>
                 <div className={styles.inner}>
                     <div className={styles.tag}><img src="/javascript.svg" alt="" /></div>
                     <div className={styles.tag}><img src="/css.svg" alt="" /></div>
