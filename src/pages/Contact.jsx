@@ -94,7 +94,7 @@ const Contact = ({ aboutBgClass, colorText, btnColorClass }) => {
             />
           </div>
           <div className="mb-4">
-            <label className={`block mb-2 text-lg font-semibold ${colorText}`} htmlFor="message">
+            <label className={`block mb-2 text-lg font-semibold transition duration-500 ${colorText}`} htmlFor="message">
               Mensaje
             </label>
             <textarea
