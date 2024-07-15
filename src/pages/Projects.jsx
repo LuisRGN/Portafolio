@@ -40,9 +40,9 @@ const Projects = ({ bgColorClass, btnColorClass, colorText }) => {
   ];
 
   return (
-    <section id="projects" className={`min-h-screen pt-10 ${bgColorClass}`}>
+    <section id="projects" className={`min-h-screen pt-10 transition duration-500 ${bgColorClass}`}>
       <div className="container p-8 mx-auto">
-        <h2 className={`text-4xl font-bold text-center ${colorText}`}>Mis proyectos</h2>
+        <h2 className={`text-4xl font-bold text-center transition duration-500 ${colorText}`}>Mis proyectos</h2>
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
           {projectList.map((project, index) => (
             <ProjectCard key={index} {...project} btnColorClass={btnColorClass} colorText={colorText} />
