@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = ({ bgClass }) => {
   return (
-    <footer className={`flex flex-col items-center justify-center py-4 ${bgClass} text-white`}>
+    <footer className={`flex flex-col items-center justify-center py-4 transition duration-500 ${bgClass} text-white`}>
       <div className="container mx-auto text-center">
         &copy; 2024 Luis Gonzalez. Todos los derechos reservados.
       </div>
