@@ -54,9 +54,9 @@ const Navbar = ({ bgClass }) => {
   };
 
   return (
-    <nav className={`fixed top-0 z-10 w-full px-4 py-4 text-white ${bgClass}`}>
+    <nav className={`fixed top-0 z-10 w-full px-4 py-4 text-white transition duration-500 ${bgClass}`}>
       <div className="container flex flex-wrap items-center justify-between mx-auto md:justify-around">
-        <div className={`text-2xl font-bold text-white`}>Luis Gonzalez</div>
+        <div className={`text-2xl font-bold text-white transition duration-500`}>Luis Gonzalez</div>
         <div className="md:hidden">
           <button className={`text-white focus:outline-none `} onClick={toggleMenu}>
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -68,7 +68,7 @@ const Navbar = ({ bgClass }) => {
             </svg>
           </button>
         </div>
-        <ul className={`hidden space-x-4 md:flex text-white`}>
+        <ul className={`hidden space-x-4 md:flex text-white transition duration-500`}>
           <li><a href="#home" className={`hover:underline ${activeSection === 'home' ? 'underline' : ''}`}>Inicio</a></li>
           <li><a href="#about" className={`hover:underline ${activeSection === 'about' ? 'underline' : ''}`}>Sobre mi</a></li>
           <li><a href="#projects" className={`hover:underline ${activeSection === 'projects' ? 'underline' : ''}`}>Proyectos</a></li>
@@ -77,7 +77,7 @@ const Navbar = ({ bgClass }) => {
       </div>
       {isMenuOpen && (
         <div className="fixed inset-0 z-20 flex justify-end bg-black bg-opacity-50 md:hidden">
-          <div ref={sidebarRef} className={`w-64 h-full p-4 text-white ${bgClass}`}>
+          <div ref={sidebarRef} className={`w-64 h-full p-4 text-white transition duration-500 ${bgClass}`}>
             <ul className="mt-10 space-y-4">
               <li><a href="#home" className={`hover:underline ${activeSection === 'home' ? 'underline' : ''}`} onClick={toggleMenu}>Inicio</a></li>
               <li><a href="#about" className={`hover:underline ${activeSection === 'about' ? 'underline' : ''}`} onClick={toggleMenu}>Sobre mi</a></li>
