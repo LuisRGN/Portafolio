@@ -40,9 +40,9 @@ function App() {
         className="fixed cursor-pointer left-4 bottom-4"
       >
         {isSunActive ? (
-          <img src="/sun.svg" alt="sun" className="h-10 " />
+          <img src="/moon.svg" alt="sun" className="h-10 " />
         ) : (
-          <img src="/moon.svg" alt="moon" className="h-10" />
+          <img src="/sun.svg" alt="moon" className="h-10" />
         )}
       </div>
     </div>
