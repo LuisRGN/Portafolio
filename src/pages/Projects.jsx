@@ -9,33 +9,38 @@ const Projects = ({ bgColorClass, btnColorClass, colorText }) => {
       title: 'Administrador de actividades', description: `Explora una página web personalizada con una 
       breve presentación y funcionalidades interactivas que permiten a los usuarios agregar y gestionar 
       sus actividades de forma eficiente y personalizada.`, img: '/tareas.jpg',
-      link: 'https://proyecto-m1-fk6tkyoet-luisrgn.vercel.app'
+      link: 'https://proyecto-m1-fk6tkyoet-luisrgn.vercel.app',
+      stack: ['JavaScript', 'CSS', 'HTML']
     },
     {
       title: 'Cinema',
       description: `Una página web dedicada a explorar y agregar descripciones de películas. 
       Descubre sinopsis detalladas de tus películas favoritas y contribuye añadiendo nuevas películas a la creciente colección.`,
       img: '/cinema.jpg',
-      link: 'https://cinema2-theta.vercel.app'
+      link: 'https://cinema2-theta.vercel.app',
+      stack: ['Bootstrap', 'CSS', 'HTML', 'JavaScript', 'Express', 'MongoDB']
     },
     {
       title: 'Gestor de turno',
       description: `Una página web especializada en la organización y gestión de turnos para sesiones de 
       videojuegos, ofreciendo una experiencia fluida y estructurada diseñada para satisfacer 
-      las necesidades de los jugadores`, img: 'turno.jpg', link: 'https://shift-manager-alpha.vercel.app'
+      las necesidades de los jugadores`, img: 'turno.jpg', link: 'https://shift-manager-alpha.vercel.app',
+      stack: ['React', 'CSS Modules', 'TypeScript', 'Express', 'PostgreSQL']
     },
     {
       title: 'Compra de tickets', description: `Una página web diseñada para comprar 
       tickets a eventos musicales,
       ofreciendo una experiencia de usuario intuitiva y rápida. 
       Los usuarios pueden buscar eventos, y realizar pagos de manera segura y eficiente.`, img: '/tickets.jpg',
-      link: 'https://front-radio-ticket.vercel.app/'
+      link: 'https://front-radio-ticket.vercel.app/',
+      stack: ['Next', 'Tailwind', 'TypeScript']
     },
     {
       title: "Animales Mitologicos",
       description: `Animales Mitológicos es una página web que presenta descripciones de diversos seres mitológicos, 
       destacando sus características y leyendas en un formato conciso y visualmente atractivo.`,
-      link: "https://animales-mitologicos-ki7d.vercel.app/index.html", img: "/animales.png"
+      link: "https://animales-mitologicos-ki7d.vercel.app/index.html", img: "/animales.png",
+      stack: ['HTML', 'CSS']
     },
   ];
 
