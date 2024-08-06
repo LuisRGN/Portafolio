@@ -10,10 +10,10 @@ const About = ({ aboutBgClass, colorText }) => {
         <div className="container p-8 mx-auto mt-10">
           <h2 className={`text-4xl font-bold text-center transition duration-500 ${colorText}`}>Sobre mi</h2>
           <p className={`mt-4 text-lg text-center transition duration-500 ${colorText}`}>
-            ¡Hola! Soy Luis, un desarrollador Full Stack recientemente graduado del bootcamp de Soy Henry. Con experiencia en HTML, CSS, JavaScript y frameworks modernos como React, me dedico a diseñar experiencias de usuario intuitivas y eficientes. Tengo habilidades sólidas en desarrollo de software, especialmente en frontend con tecnologías como React, JavaScript, TypeScript, Next.js, HTML y CSS (incluyendo TailwindCSS y CSS Modules). También tengo experiencia en backend con Node.js, Express.js y PostgreSQL.
+            ¡Hola! Soy Luis, desarrollador Full Stack. Con experiencia en HTML, CSS, JavaScript y frameworks modernos como React, me dedico a diseñar experiencias de usuario intuitivas y eficientes. Tengo habilidades sólidas en desarrollo de software, especialmente en frontend con tecnologías como React, JavaScript, TypeScript, Next.js, HTML y CSS (incluyendo TailwindCSS y CSS Modules). También tengo experiencia en backend con Node.js, Express.js y PostgreSQL.
           </p>
           <p className={`mt-4 text-lg text-center transition duration-500 ${colorText}`}>
-            Siempre estoy aprendiendo nuevas tecnologías y buscando mejorar mis habilidades para ofrecer soluciones innovadoras. Me apasiona seguir aprendiendo y creciendo en este campo emocionante, y siempre estoy en busca de nuevas oportunidades para aplicar mis conocimientos y contribuir a proyectos interesantes. ¡Conéctate conmigo y sigamos aprendiendo juntos!
+            Siempre estoy aprendiendo nuevas tecnologías y buscando mejorar mis habilidades para ofrecer soluciones innovadoras, siempre estoy en busca de nuevas oportunidades para aplicar mis conocimientos y contribuir en proyectos interesantes. ¡Conéctate conmigo y sigamos aprendiendo juntos!
           </p>
         </div>
       </section>
