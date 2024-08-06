@@ -33,7 +33,7 @@ const Projects = ({ bgColorClass, btnColorClass, colorText }) => {
       ofreciendo una experiencia de usuario intuitiva y rápida. 
       Los usuarios pueden buscar eventos, y realizar pagos de manera segura y eficiente.`, img: '/tickets.jpg',
       link: 'https://front-radio-ticket.vercel.app/',
-      stack: ['Next', 'Tailwind', 'TypeScript']
+      stack: ['React', 'Next', 'Tailwind', 'TypeScript']
     },
     {
       title: "Animales Mitologicos",
