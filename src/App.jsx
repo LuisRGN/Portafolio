@@ -40,9 +40,9 @@ function App() {
         className="fixed cursor-pointer left-4 bottom-4"
       >
         {isSunActive ? (
-          <img src="/moon.svg" alt="sun" className="h-10 " />
+          <img src="/moon.svg" alt="sun" className={`h-10  rounded-full p-[0.30rem] transition duration-300 ${btnColorClass} hover:bg-[#1a25c2]`} />
         ) : (
-          <img src="/sun.svg" alt="moon" className="h-10" />
+          <img src="/sun.svg" alt="moon" className={`h-10  rounded-full p-[0.30rem] transition duration-300 ${btnColorClass}`} />
         )}
       </div>
     </div>
