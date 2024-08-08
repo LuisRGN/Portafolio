@@ -14,6 +14,7 @@ function App() {
   const [navbarBgClass, setNavbarBgClass] = useState('custom-bg');
   const [sidebarBgClass, setSidebarBgClass] = useState('custom-bg');
   const [btnColorClass, setBtnColorClass] = useState('bg-[#242223]');
+  const [stackColor, setStackColor] = useState('bg-[#242223]')
   const [isSunActive, setIsSunActive] = useState(true);
 
   const cambiarColor = () => {
@@ -22,6 +23,7 @@ function App() {
     setNavbarBgClass(navbarBgClass === 'custom-bg' ? 'custom2-bg' : 'custom-bg');
     setSidebarBgClass(sidebarBgClass === 'custom-bg' ? 'custom2-bg' : 'custom-bg');
     setBtnColorClass(btnColorClass === 'bg-[#242223]' ? 'bg-[#000000] hover:bg-[#1b1942]' : 'bg-[#242223]');
+    setStackColor(stackColor === 'bg-[#242223]' ? 'bg-[#000000]' : 'bg-[#242223]')
     setColorText(colorText === 'text-black' ? 'text-white' : 'text-black')
     setIsSunActive(!isSunActive);
   };
@@ -31,7 +33,7 @@ function App() {
       <Navbar bgClass={navbarBgClass} />
       <Home bgColorClass={bgColorClass} colorText={colorText} />
       <About aboutBgClass={aboutBgClass} colorText={colorText} />
-      <Projects bgColorClass={bgColorClass} btnColorClass={btnColorClass} colorText={colorText} />
+      <Projects bgColorClass={bgColorClass} btnColorClass={btnColorClass} colorText={colorText} stackColor={stackColor} />
       <Contact aboutBgClass={aboutBgClass} btnColorClass={btnColorClass} colorText={colorText} />
       <Footer bgClass={navbarBgClass} />
       <ScrollToTopButton btnColorClass={btnColorClass} />
