@@ -2,14 +2,14 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const ProjectCard = ({ title, description, link, img, stack, btnColorClass, colorText }) => {
+const ProjectCard = ({ title, description, link, img, stack, btnColorClass, colorText, stackColor }) => {
   return (
     <div className="p-4 border border-[#707070] rounded-lg">
       <h3 className={`text-2xl font-bold transition duration-500 ${colorText}`}>{title}</h3>
       <p className={`mt-2 transition duration-500 ${colorText}`}>{description}</p>
       <div className="flex flex-wrap my-3">
         {stack && stack.map((tech, index) => (
-          <span key={index} className={`p-[0.30rem] m-1 ${btnColorClass} rounded text-white transition duration-300 hover:bg-[#1a25c2]`}>{tech}</span>
+          <span key={index} className={`p-[0.30rem] m-1 ${stackColor} rounded text-white`}>{tech}</span>
         ))}
       </div>
       <img className="my-2 rounded-sm" src={img} alt="Proyectos" />
