@@ -3,7 +3,7 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 
-const Projects = ({ bgColorClass, btnColorClass, colorText }) => {
+const Projects = ({ bgColorClass, btnColorClass, colorText, stackColor }) => {
   const projectList = [
     {
       title: 'Administrador de actividades', description: `Explora una página web personalizada con una 
@@ -50,7 +50,7 @@ const Projects = ({ bgColorClass, btnColorClass, colorText }) => {
         <h2 className={`text-4xl font-bold text-center transition duration-500 ${colorText}`}>Mis proyectos</h2>
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
           {projectList.map((project, index) => (
-            <ProjectCard key={index} {...project} btnColorClass={btnColorClass} colorText={colorText} />
+            <ProjectCard key={index} {...project} btnColorClass={btnColorClass} colorText={colorText} stackColor={stackColor} />
           ))}
         </div>
       </div>
