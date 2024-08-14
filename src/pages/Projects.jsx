@@ -42,6 +42,16 @@ const Projects = ({ bgColorClass, btnColorClass, colorText, stackColor }) => {
       link: "https://animales-mitologicos-ki7d.vercel.app/index.html", img: "/animales.png",
       stack: ['HTML', 'CSS']
     },
+    {
+      title: "Rick and Morty",
+      description: `Esta página web es un proyecto para explorar las funcionalidades de Vue 3, 
+      integrando Bootstrap. La aplicación incluye características interactivas que muestran la facilidad
+       de construir aplicaciones web modernas y responsivas con Vue 3 y Bootstrap.`,
+      link: "https://rick-and-morty-vue-ten.vercel.app/",
+      img: "/RM.png",
+      stack: ['Vue', 'JavaScript', 'CSS', 'Bootstrap']
+    },
+
   ];
 
   return (
