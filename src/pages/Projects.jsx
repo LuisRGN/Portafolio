@@ -49,7 +49,7 @@ const Projects = ({ bgColorClass, btnColorClass, colorText, stackColor }) => {
        de construir aplicaciones web modernas y responsivas con Vue 3 y Bootstrap.`,
       link: "https://rick-and-morty-vue-ten.vercel.app/",
       img: "/RM.png",
-      stack: ['Vue', 'JavaScript', 'CSS', 'Bootstrap']
+      stack: ['Vue', 'Pinia', 'JavaScript', 'CSS', 'Bootstrap']
     },
 
   ];
