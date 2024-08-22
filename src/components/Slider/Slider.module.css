@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
 .container {
     width: 100%;
     position: relative;
@@ -32,12 +33,18 @@
     border-radius: 0.5rem;
     box-shadow: 0 0.1rem 0.2rem #00000033, 0 0.1rem 0.5rem #0000004d, 0 0.2rem 1.5rem #00000066;
     background-color: #fff;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tag img {
     width: 9rem;
     aspect-ratio: 3/3;
     max-width: none;
+}
+
+.name {
+    font-weight: bold;
 }
 
 .fade {
