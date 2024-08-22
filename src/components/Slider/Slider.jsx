@@ -16,6 +16,7 @@ const technologies = [
     { name: "GitHub", img: "/github.svg" },
     { name: "Vercel", img: "/vercel.svg" },
     { name: "Vue.js", img: "/vue.svg" },
+    { name: "Bootstrap", img: "/bootstrap.svg" }
 ];
 
 const Slice = ({ colorText }) => {
